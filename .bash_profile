@@ -7,7 +7,7 @@
 export PATH=/usr/local/bin:$PATH
 
 ## PS1
-export PS1='\w $'
+export PS1="[\$(~/.rvm/bin/rvm-prompt v g)] \w $"
 
 ## enable color support
 export GREP_OPTIONS="--color=auto"
