@@ -4,7 +4,7 @@
 [[ -s "$HOME/.profile" ]] && source "$HOME/.profile" # Load the default .profile
 
 ## PS1
-# export PS1="[\$(~/.rvm/bin/rvm-prompt v g)] \w $"
+export PS1="[\$(ruby -e 'print RUBY_VERSION')] \w $"
 
 ## enable color support
 export GREP_OPTIONS="--color=auto"
