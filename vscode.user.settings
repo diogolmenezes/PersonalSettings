@@ -21,5 +21,9 @@
     "terminal.integrated.fontSize":14,
   
     // Define o tema dos ícones na sidebar
-    "workbench.iconTheme":"material-icon-theme"
+    "workbench.iconTheme":"material-icon-theme",
+
+    // Define o ZSH como terminal integrado
+    "terminal.integrated.shell.linux": "/bin/zsh",
+    "terminal.integrated.shell.osx": "/bin/zsh"
   }
