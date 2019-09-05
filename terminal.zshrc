@@ -15,6 +15,12 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
+# Funcoes
+kp() {
+    kill -9 $(lsof -ti tcp:$1)
+}
+
+# Alias
 alias p='cd ~/projetos'
 alias d='cd ~/projetos/diogo'
 alias z='cd ~/projetos/diogo/zarbt'
